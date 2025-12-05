@@ -7,12 +7,12 @@ console.log("text is : ",text);
   return (
     <>
     <div style={{ position: "relative", display: "inline-block" }}>
-      <h1
+      <h2
         onMouseEnter={() => setShow(true)}
         onMouseLeave={() => setShow(false)}
       >
         Hover Over me
-      </h1>
+      </h2>
        
       {show && (
         <div
