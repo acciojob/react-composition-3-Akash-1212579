@@ -12,7 +12,7 @@ export default function App() {
 
       <hr />
 
-      <Tooltip text="Another tooltip for this text">
+      <Tooltip text="This is another tooltip">
         <p>Hover over me to see another tooltip</p>
       </Tooltip>
     </div>

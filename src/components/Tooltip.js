@@ -1,18 +1,16 @@
 import React, { useState } from "react";
 
-
 export default function Tooltip({ text, children }) {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div 
+    <div
       className="tooltip"
       onMouseEnter={() => setVisible(true)}
       onMouseLeave={() => setVisible(false)}
     >
       {children}
-
-      {visible && <span className="tooltiptext">{text}</span>}
+      {visible && <div className="tooltiptext">{text}</div>}
     </div>
   );
 }
